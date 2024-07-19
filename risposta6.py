@@ -49,11 +49,6 @@ print(mean_arr)  # Output: 2.0
 max_arr = np.max(arr)
 print(max_arr)  # Output: 3
 
-# Indici degli elementi che soddisfano una condizione
-arr = np.array([1, 2, 3, 4])
-cond = np.where(arr > 2)
-print(cond)  # Output: (array([2, 3]),)
-
 # Concatenazione di array
 arr1 = np.array([1, 2, 3])
 arr2 = np.array([4, 5, 6])
